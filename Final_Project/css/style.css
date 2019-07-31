@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
+
+body {
+  background-color: #ffff80;
+  color: 004d26;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-size: 60px;
+background-color: white;
+border: 2px solid black;
+padding: 30px 0;
+margin-bottom: 60px;
+margin-top: 60px
+}
+
+#name hover{
+  background-color: blue;
+  transition:250ms linear; }
+
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #first-list {
+    background-color: white;
+  }
+  #first-list:hover{
+    background-color: #4dff88;
+    transition:250ms linear;
+  }
+
+  #first-list li {
+    display: inline-block;
+    margin: center; }
+
+#second-list {
+  background-color: white;
+}
+
+  #second-list:hover{
+    background-color: #4dff88;
+    transition:250ms linear;
